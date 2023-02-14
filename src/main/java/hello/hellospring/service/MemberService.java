@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
+
 @Service
 public class MemberService {
 
@@ -16,13 +17,13 @@ public class MemberService {
 
 
     // Dependency Injection
-    @Autowired
+
     public MemberService(MemberRepository memberRepository){
         this.memberRepository = memberRepository;
     }
 
 
-    /*
+    /**
      회원 가입
      */
     public long join(Member member){
@@ -39,7 +40,7 @@ public class MemberService {
                 });
     }
 
-    /*
+    /**
         전체 회원 조회
      */
     public List<Member> findMembers(){
