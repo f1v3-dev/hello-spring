@@ -1,8 +1,10 @@
 # hello-spring
 [Notion](https://gigantic-cemetery-daa.notion.site/Spring-Boot-948bccde17814b118baafdf1153de56a)
 
-인프런 스프링 입문 강의(김영한)
+인프런 스프링 입문 강의(김영한) 정리
 
+
+# Spring Boot
 
 ### 강의 소개
 
@@ -30,4 +32,8 @@
 
 ### 스프링 DB 접근 기술
 
+[JDBC, JdbcTemplate, JPA](https://www.notion.so/JDBC-JdbcTemplate-JPA-a41576ded7e64bde9844d50b2283bc72)
+
 ### AOP
+
+[왜 AOP가 필요한가 ?](https://www.notion.so/AOP-f90e08c1177e407cbe758f594ae4cf27)
